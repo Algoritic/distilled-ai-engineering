@@ -1,7 +1,20 @@
+# AI Engineering Roadmap
+
+This roadmap will guide you through the key principles and knowledge needed to embark on the exciting journey of AI engineering.
+There are four main sections for this journey:
+
+1. **Fundamentals**
+2. **Data Science**
+3. **Machine Learning**
+4. **Deep Learning**
+
+## Fundamentals
+
+In the Fundamentals section, we cover the essential building blocks of AI engineering:
+
 ```mermaid
 flowchart TD
-    A0[AI Engineering Roadmap] --> A[Fundamentals]
-    A --> B[Basics]
+    A[Fundamentals] --> B[Basics]
     B --> C[Matrices & Linear Algebra Fundamentals]
     B --> D[Database Basics]
     B --> E[Tabular Data]
@@ -44,38 +57,42 @@ flowchart TD
     B3 --> I3[Feature Extraction]
     B3 --> J3[Denoising]
     B3 --> K3[Sampling]
-    A0[AI Engineering Roadmap] --> A2[Data Scientist]
-    A2 --> B21[Statistics]
-    B21 --> C21[Probability Theory]
-    C21 --> |Continuous distributions| D21[pdfs]
-    C21 --> |Discrete distributions| E21[pmfs]
-    C21 --> F21[Summary statistics]
-    C21 --> G21[Important Laws]
-    C21 --> H21[Estimation]
-    C21 --> I21[Hypothesis Testing]
-    C21 --> |Confidence Interval| J21[CI]
-    C21 --> K21[Monte Carlo Method]
-    D21 --> L21[Normal / Gaussian]
-    D21 --> M21[Uniform, continuous]
-    D21 --> N21[Beta]
-    D21 --> O21[Dirichlet]
-    D21 --> P21[Exponential]
-    D21 --> |chi-squared| Q21[χ²]
-    E21 --> R21[Uniform, discrete]
-    E21 --> S21[Bionomial]
-    E21 --> T21[Multinomial]
-    E21 --> U21[Hypergeometric]
-    E21 --> V21[Poisson]
-    E21 --> W21[Geometric]
-    F21 --> X21[Expectation and mean]
-    F21 --> |Variance and standard deviation| Y21[sd]
-    F21 --> Z21[Covariance and correlation]
-    F21 --> AA21[Median, quartile]
-    F21 --> AB21[Interquartile range]
-    F21 --> AC21[Percentile / quantile]
-    F21 --> AD21[Mode]
-    I21 --> AE21[p-Value]
-    I21 --> AF21[Chi² test]
-    I21 --> AG21[F-test]
-    I21 --> AH21[t-test]
+```
+
+In the Data Science section, we cover the essential building blocks of workign with data:
+
+```mermaid
+    A[Data Scientist]--> B[Statistics]
+    B --> C[Probability Theory]
+    C --> |Continuous distributions| D[pdfs]
+    C --> |Discrete distributions| E[pmfs]
+    C --> F[Summary statistics]
+    C --> G[Important Laws]
+    C --> H[Estimation]
+    C --> I[Hypothesis Testing]
+    C --> |Confidence Interval| J[CI]
+    C --> K[Monte Carlo Method]
+    D --> L[Normal / Gaussian]
+    D --> M[Uniform, continuous]
+    D --> N[Beta]
+    D --> O[Dirichlet]
+    D --> P[Exponential]
+    D --> |chi-squared| Q[χ²]
+    E --> R[Uniform, discrete]
+    E --> S[Bionomial]
+    E --> T[Multinomial]
+    E --> U[Hypergeometric]
+    E --> V[Poisson]
+    E --> W[Geometric]
+    F --> X[Expectation and mean]
+    F --> |Variance and standard deviation| Y[sd]
+    F --> Z[Covariance and correlation]
+    F --> AA[Median, quartile]
+    F --> AB[Interquartile range]
+    F --> AC[Percentile / quantile]
+    F --> AD[Mode]
+    I --> AE[p-Value]
+    I --> AF[Chi² test]
+    I --> AG[F-test]
+    I --> AH[t-test]
 ```
