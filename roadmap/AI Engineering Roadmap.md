@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A0[AI Engineering Roadmap] --> A[Fundamentals]
     A --> B[Basics]
@@ -77,3 +78,4 @@ flowchart TD
     I21 --> AF21[Chi² test]
     I21 --> AG21[F-test]
     I21 --> AH21[t-test]
+```
