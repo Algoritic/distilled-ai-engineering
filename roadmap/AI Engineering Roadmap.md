@@ -62,6 +62,7 @@ flowchart TD
 In the Data Science section, we cover the essential building blocks of workign with data:
 
 ```mermaid
+flowchart TD
     A[Data Scientist]--> B[Statistics]
     B --> C[Probability Theory]
     C --> |Continuous distributions| D[pdfs]
