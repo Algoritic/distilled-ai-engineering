@@ -1,4 +1,4 @@
-# distilled-ai-engineering
+# AI Engineering - Distilled
 Welcome to AI Engineering Distilled: Your Express Route to Becoming an AI Engineer 🚀
 
 Inside this repository, you'll find:
